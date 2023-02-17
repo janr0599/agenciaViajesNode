@@ -1,0 +1,33 @@
+extends ./layout/index 
+
+block contenido
+    main.container.mt-5 
+        .row    
+            .col-md-5 
+                img(src="img/nosotros.jpg", alt="imagen de nosotros", class="img-fluid")
+            .col-md-7
+                h1.mt-3.mt-md-0 #{pagina}
+                p.text-justify Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sagittis risus et varius feugiat. Etiam tempor dictum nunc vel fringilla. Etiam bibendum, odio sed tincidunt facilisis, nisl lorem molestie augue, ut consectetur ligula justo sed eros. Curabitur eu consectetur magna.
+
+                p.text-justify faucibus dignissim nisi vel pharetra. Aliquam pharetra eu arcu in sodales. Vivamus ut bibendum nibh, nec aliquet ipsum. Maecenas quis nisi massa. Nunc sollicitudin non ante vitae euismod. Donec est ligula, faucibus quis nunc ac, auctor scelerisque ante. Praesent sagittis vehicula laoreet.
+
+                p.text-justify Curabitur semper lacinia molestie. Ut vitae volutpat tortor. Praesent fringilla est lacinia malesuada lacinia. Donec facilisis arcu in ipsum accumsan, semper dapibus nibh mollis. Suspendisse efficitur sapien mauris, nec finibus magna interdum sit amet.
+
+    .listado-iconos 
+        .container.mt-5.py-5.text-center 
+            .row
+                .col-md-4
+                    img(src="img/icono_seguridad.svg", alt="icono seguridad", class="img-fluid my-4")
+                    h2.mb-4 Seguridad
+                    p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint eius quia quam hic nisi delectus.
+                .col-md-4
+                    img(src="img/icono_destinos.svg", alt="icono sdestinos", class="img-fluid my-4")
+                    h2.mb-4 Mejores Destinos
+                    p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint eius quia quam hic nisi delectus.
+                .col-md-4
+                    img(src="img/icono_precios.svg", alt="icono precios", class="img-fluid my-4")
+                    h2.mb-4 Mejores Precios
+                    p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint eius quia quam hic nisi delectus.
+
+    
+
